@@ -4,7 +4,14 @@ Munge your neural networks to make them smaller and maybe sometimes faster! May
 change the accuracy of the model, and using heuristics may not help performance
 for all networks.
 
-## Offered methods
+(Planned not yet implemented)
+
+## Frameworks
+
+This project aims to support Torch and Tensorflow initially. Tensorflow 2 and 1
+will hopefully both be supported but we'll see.
+
+## Methods
 
 * Compressing floating point values to lower precision floats
 

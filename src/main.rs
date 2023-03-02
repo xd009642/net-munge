@@ -3,6 +3,12 @@ use std::fs;
 use std::io::{self, prelude::*};
 use std::path::PathBuf;
 
+#[cfg(feature = "tensorflow")]
+mod tf;
+
+#[cfg(feature = "tch")]
+mod torch;
+
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
 struct Cli {
